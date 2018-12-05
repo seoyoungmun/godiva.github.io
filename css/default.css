@@ -1,0 +1,127 @@
+@charset "utf-8";
+.main_banner .swiper-wrapper{margin-bottom: 0;}
+.main_banner .swiper-pagination{margin-bottom: 20px;}
+.main_banner .swiper-pagination-bullet-active{background:#fdf8d8;}
+
+.header_btn{margin-top: -7px;}
+.header_btn .btn{width: 33.333333333%; height: 33vw; max-height:180px; float: left;}
+.header_btn .btn:nth-child(even){background: #f2d18f;}
+.header_btn .btn:nth-child(odd){background: #eec169;}
+.header_btn .btn04,.header_btn .btn05{display: none;}
+.btn_box{position: relative; width: 100%; height: 100%; text-align: center;}
+.btn_box img{max-height: 160px;}
+.btn_box h3{position: absolute; bottom: 10px; width: 100%; font-size: 1.286rem; font-weight: 500;}
+
+.best_sellers h1{font-size: 2rem; text-align: center; font-weight: 600; padding-top: 40px;}
+.best_sellers h6{font-size: 1.286rem; text-align: center;}
+.best_sellers p{text-align: center;}
+.best_sellers .swiper-wrapper{margin-bottom: 40px;}
+.best_sellers .swiper-pagination-bullet-active{background: #492f1e;}
+.best_sellers .responsive{position: relative; overflow: hidden;}
+.best_sellers .responsive .responsive_pagination{bottom: 0;}
+.swiper-button-next,.swiper-button-prev{display: none;}
+
+.new_product{background: url(../images/new_bg.jpg) no-repeat center top; width: 100%; max-height:240px; height:50vw; margin-top:40px;}
+.new_product_box{position:relative; width:100%; height:100%;}
+.new_product_box h1{position:absolute; left:20px; top:20px; font-size:1.714rem; font-weight:600;}
+.new_product_box h3{position:absolute; left:4.5vw; bottom:5vw; font-size:0.85rem;}
+.new_product_box h3 span{display:block; font-weight:400; font-size:0.7rem;}
+.new_product_box img{position:absolute; right:0; bottom:2vw; width:63vw; max-width:360px;}
+
+.kakao_plus{margin-bottom:40px;}
+
+.the_neighbor{position: relative; padding: 0 10px 76px; text-align: center;}
+.the_neighbor h5{font-size: 18px; padding: 10px 0;}
+.the_neighbor h6{display: none;}
+.the_neighbor h3{position: absolute; border: 2px solid #2F1E14; width: 200px; height: 50px; text-align: center; line-height: 50px; font-size: 1.2rem; bottom: 16px; left: 50%; margin-left: -100px;}
+
+.instagram{margin-top:40px; position: relative;text-align: center;}
+.instagram h1{font-size: 2.3rem;}
+.instagram h2{padding-bottom: 10px;}
+.instagram .text h1{display: none;}
+
+.instagram .insta{width:33.333333333%; height:33vw; float:left; max-height:426.67px;}
+.instagram .insta1{background:url(../images/main/common/insta09.jpeg) no-repeat center center; background-size:134%;}
+.instagram .insta2{background:url(../images/main/common/insta02.jpeg) no-repeat center center; background-size:100%;}
+.instagram .insta3{background:url(../images/main/common/insta03.jpeg) no-repeat center 45%; background-size:161%;}
+.instagram .insta4{background:url(../images/main/common/insta04.jpeg) no-repeat center 42%; background-size:108%;}
+.instagram .insta5{background:url(../images/main/common/insta05.jpeg) no-repeat center center; background-size:100%;}
+.instagram .insta6{background:url(../images/main/common/insta06.jpeg) no-repeat center 41%; background-size:107%;}
+.instagram .insta7{background:url(../images/main/common/insta07.jpeg) no-repeat center 41%; background-size:106%;}
+.instagram .insta8{background:url(../images/main/common/insta08.jpeg) no-repeat center 40%; background-size:105%;}
+.instagram .insta9{background:url(../images/main/common/insta01.jpeg) no-repeat center 31%; background-size:140%;}
+
+.instagram .insta .hover_img{display: none;}
+    .instagram .insta .hover_img{height: 100%; background: rgba(73,47,30,.7); position: relative; overflow: hidden;}
+    .instagram .insta .hover_img img{position: absolute; bottom: -200px; left: 0;}
+    .instagram .insta9 .hover_img img{width: 50%; left: 50%;}
+/*tablet*/
+/*
+@media screen and (min-width: 600px) {
+    body{background:skyblue;}
+    .new_product_box h1{left:8.5vw; top:40px;}
+    .new_product_box h3{left:8.5vw; bottom:30px;}
+    .new_product_box img{right:7.5vw; bottom:3vw;}
+}
+*/
+/*tablet*/
+@media screen and (min-width: 430px) {
+    .new_product_box h3{font-size: 1.214rem;}
+    .new_product_box h3 span{font-size: 1rem;}
+}
+@media screen and (min-width: 640px) {
+    .header_btn .btn{width: 25%; height: 25vw; max-height: 190px;}
+    .header_btn .btn04{display: block;}
+    .btn_box h3{bottom: 10px;}
+    .new_product{width: 50%;float: left; max-height: 320px; height:25vw; margin-top:70px;}
+    .kakao_plus{width: 50%;float: left; margin-top:70px; margin-bottom:70px;}
+    .new_product_box img{right:0px; bottom:1vw; width:31vw;}
+    .new_product_box h1{left:15px; top:3vw;}
+    .the_neighbor h3{width: 200px; height: 50px; line-height: 50px; bottom: 48px; left: 23.359375%; margin-left: -100px;}
+    .instagram{margin-top:70px;padding-top:0;}
+    .instagram .insta{width:25%; height:25vw; float:left; max-height:320px;}
+    .instagram>h1{display: none;}
+    .instagram .text{width:50%; height:25vw; float:left; display:block; background:#9B8D84; color:#EEECEA; text-align:center; line-height:21vw; max-height: 320px;}
+    .instagram .text span{1display:block;}
+    .instagram .insta9{background-size:100%; width:50%;}
+    .instagram .text h1{display: block;}
+    
+    .the_neighbor{padding-bottom: 0;}
+    .the_neighbor_text{width: 50%; float: left; padding: 0 10px; text-align: center;}
+    .the_neighbor h5{font-size: 1.6vw; padding: 10px 0;}
+    .neighbor_img{width: 50%; float: left;}
+    .instagram>h2{position: absolute; transform: translate(-50%, -50%); top: 88%; left: 75%; color: #EEECEA; width: 100%;}
+}
+
+/*PC*/
+@media screen and (min-width: 1280px) {
+    .header_btn .btn{width: 20%; height: 20vw; max-height: 190px;}
+    .header_btn .btn05{display: block;}
+    
+    .btn_box img{max-height: 150px;}
+    .best_sellers h1{padding-top: 70px; padding-bottom: 10px;}
+    .best_sellers .swiper-wrapper{margin-bottom: 50px;}
+
+    .new_product{width: 50%; max-height: 320px; height:25vw;}
+    .kakao_plus{width: 50%;float: left;}
+    .new_product_box img{position:absolute; right:20px; bottom:30px;}
+    .new_product_box h1{left:40px; top:3vw;}
+    .new_product_box h3{left:40px; bottom:35px;}
+    
+    .the_neighbor_text{width: 50%; float: left; padding: 0 30px;}
+    .the_neighbor h5{font-size: 20px;}
+    .the_neighbor h6{font-size: 17px; padding: 0; font-weight: 400; text-align: left; display: block;}
+    .the_neighbor h3{bottom: 60px;}
+    
+    .instagram .insta{}
+    .instagram>h2{top: 87%;}
+    .instagram .text{line-height:290px;}
+    
+    .best_sellers{position: relative;}
+    .best_sellers .responsive{position: inherit; width: 93%; margin: 0 auto;}
+    .swiper-button-next,.swiper-button-prev{display: block;}
+    .swiper-button-next{right: 0; background: url(../images/main/common/chevron-right-pagination.svg) no-repeat;}
+    .swiper-button-prev{left: 0; background: url(../images/main/common/chevron-left-pagination.svg) no-repeat;}
+    .main_banner .swiper-button-prev{left: 10px;}
+    .main_banner .swiper-button-next{right: 10px;}
+}
